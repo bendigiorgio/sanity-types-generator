@@ -1,0 +1,8 @@
+schemaPath: "**/schemas/**/*.{ts,js}"
+groqQueryPattern: "**/*.{groq.js,groq.ts}"
+outputPath: typings
+sanity:
+  projectId: your-project-id
+  dataset: your-dataset
+  apiVersion: "2023-04-04"
+  useCdn: "false"
